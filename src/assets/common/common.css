@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #f0f2f5;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.text-center{
+	text-align: center;
+}
+.clear{
+	overflow: hidden;
+}
+.circle{
+	width: 3.125rem;
+	height: 3.125rem;
+	border-radius: 50%;
+}
+.nav{
+	background: #fff;
+		height: 50px;
+		line-height: 50px;
+		padding: 0 20px;
+	}
+.app {
+	
+}
+.tableData{
+	background: #fff;
+	padding:20px;
+	margin: 20px 0 0 20px;
+	color: #707070;
+}
+.container{
+	width: 83.333333%;
+	margin: 0 auto;
+}
+.li-active{
+	background-color: #1890ff;
+	color: #FFFFFF;
+}
+i.red{
+	color: red;
+}
+.styleli{
+		list-style: disc;
+	}
+	.el-message-box__content{
+		padding: 10px 35px;
+	}
+	.el-table th{
+		color: #666666;
+		background-color: #fafafa;
+	}
+	.el-table__header{
+		border-top: 1px solid #e8e8e8;
+	}
+.el-table th, .el-table tr {
+    /*background-color: #fafafa !important*/
+}
+.el-dialog__body{
+		overflow-y: scroll;
+	}
+	.el-main{
+		padding: 0;
+	}
+.el-dialog__header{
+	border-bottom: 1px solid #e8e8e8;
+}
+.el-dialog__footer{
+	border-top: 1px solid #e8e8e8;
+}
